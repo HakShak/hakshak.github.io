@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/hakshak
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://hakshak.com
+  * I am hakshak (https://keybase.io/hakshak) on keybase.
+  * I have a public key with fingerprint 0E7B 8AC8 B504 E323 D3BB  5C49 A596 52E0 BF3E F7CD
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "0e7b8ac8b504e323d3bb5c49a59652e0bf3ef7cd",
+            "host": "keybase.io",
+            "key_id": "a59652e0bf3ef7cd",
+            "kid": "0101ef5f4d01e95bdebd79b3ceb01b894d602e626278d87819fb6d24faaf61e13f690a",
+            "uid": "5f904c832bc99f55704a11dd7e1a4800",
+            "username": "hakshak"
+        },
+        "service": {
+            "hostname": "hakshak.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1422216767,
+    "expire_in": 157680000,
+    "prev": "94cf698a125354f599624bf79affda46fc2b9a1fbf67fd0d5d30f9e6c0d928f2",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.1
+Comment: https://keybase.io/crypto
+
+yMIcAnicbZJbSFRBGMdXM8NL5YNBgUGcIqR0mzPnOttFKLF6sBsZUdY2c2ZGD6t7
+1rO7mpR0g+qtsqLobiGUYQ8VQTcyU4qCHooKURS7WJqFKG2gdJkj9RD0MHzM9/3/
+v/m+j2mbPMGXnqTkjK64CH2bk549XBL3rW9fVbBDIg6tlQI7pBAbD9wOlzE34trh
+mBSQADOIiS2TaEBlClSoQohmqQhrSNcgA4QrjBsWlfKkcifqOQSG4Cjz247IiUvQ
+piL7H31ovABkIDOucZWKiDRCGaEGIorFCJCJiVSqA8h0qEPDpKZhyogTnUKVY8x1
+mckK1xHAAhcfx2kcAdUyFUgshLimGUDFskypwWSsmgB4wihzw7iSCXU5DkXFkery
+JJGsti3mbcAb5F+B33IqhTPiOjHHciq8QiwWCXi+WG3EE9YwEvyDCBI7TMUShaGa
+uVHbCUsBWSitmO0xZRVCKOuGbuRJbHvEdlnQ9hSaoYv+APCeYdUCiVRLzGZiGWqK
+pnINIR2qhBsIc06xqnMLEoRlTrhucAqoRhXAEdMtQBE0OZS8oarCjhRQRZu4TCCj
+dlkYx+Iuk+paW0pTfEnpvtSJyd438KWnZf39HHNzJv2qHei/1b363Zb4w7NNdVWV
+cxbN/LLnSeaP5OvpyxdFGg4Xveounv/rnG/KzfqtCddOpMx8NISXLjR/+E/0783u
+fNW1f3BxovnE1OTGzI62NdvqpbU9g/lPDxUVLpsd/Dyt4enr83ZB5/5jBetKRsqO
+H7j0Orfq+ax9b/aWhkOzPpjPNpaPHc19357f+/J28cG0OVdPJo+82LwptTVQr19b
+kLbh07ILUx9kn0ntvhNqajjSGip6e2Fl37qRgeYX02r6dmaUPG5J8/V8uz82/UZW
+lzt8+fSu3paxu/c6Ylc+bjxbMvk2/VkY9G97Mjw8r/DomQlfM74nKoZOVZZmw90Z
+aDR3RiSzcdO3+t/zcCwN
+=qxrA
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/hakshak
+
+==================================================================
