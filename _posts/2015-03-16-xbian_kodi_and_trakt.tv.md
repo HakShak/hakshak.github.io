@@ -93,8 +93,8 @@ I like to know what the computers in my house are doing, so I rig everything up 
 
 ##Tricks #7-11: Quality of Life
 * Turn on the webserver. It's nice to have when you are in the other room wondering what's on TV.
-* Turn on Airplay. Most this will allow most of your devices to stream to your Raspberry Pi.
-* Turn on the remote control. There are Kodi remote controls for all phones. Great when your TV remote kills your last pair batteries and you live somewhere with [amazing weather](/random/rpi/wind.gif).
+* Turn on Airplay. This will allow most of your devices to stream to your Raspberry Pi.
+* Turn on the remote control. There are Kodi remote controls for all phones. Great for when your TV remote kills your last pair of batteries and you live somewhere with [amazing weather](/random/rpi/wind.gif).
 * Turn off the RSS feed update. It just slows things down.
 * If you didn't catch it: Switch to 720p instead of the default 1080p for the UI.
 
