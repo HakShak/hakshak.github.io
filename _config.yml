@@ -12,9 +12,11 @@ relative_permalinks: true
 title:               HakShak
 tagline:             'Tech Adventures'
 description:         'A place to chronicle technolgy combined with my stubbornness.'
-url:                 http://hakshak.com
-baseurl:             /
+baseurl:             http://hakshak.com
 paginate:            5
+
+#Since baseurl is changed during development and we don't want to pollute the Disqus admin page, use this.
+disqusurl:			 http://hakshak.com
 
 # About/contact
 author:

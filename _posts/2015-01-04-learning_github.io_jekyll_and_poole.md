@@ -45,12 +45,12 @@ Knowing that I am not a web designer by any definition, I started looking for a 
 Pagination was extremely confusing for me with Jekyll at first, because I couldn't figure out how to change the example blog post on the poole themes. If the initial page of the poole themes has blog post content then I should just be able to change `_layouts/post.html`? No. No not at all. I spent way too much time on this than I would like to admit. Jekyll pagination is accomplished by generating *duplicate* files for paginated content. This means that if I have a blog post and a paginated layout, Jekyll will generate the standalone blog post based on the `_layouts/post.html` and then generate the pagenated content based on whatever layout is referencing the pagination functions (in poole's case, this is `index.html`). I ran into this issue while I was trying to add commenting functionality to the blog posts. I ended up changing the `index.html` to use {% raw %}`{{ post.excerpt }}` instead of `{{ post.content }}`{% endraw %}. (Pro tip: If you edit your *.md* in windows, the excerpt logic will not work, because new lines in windows are not detected by the default `excerpt_separator` of `\n\n`.)
 
 ##Making sure you don't get garbage discussions in Disqus
-While testing the Disqus integration, I easily accumulated 20+ discussions in my Disqus admin panel. Thankfully you can collapse all the discussions with their migration tool. Just migrate everything to the same URL. I used this code in conjunction with a `url` variable in my `_config.yml` to reduce ambiguities and clutter during testing.
+While testing the Disqus integration, I easily accumulated 20+ discussions in my Disqus admin panel. Thankfully you can collapse all the discussions with their migration tool. Just migrate everything to the same URL. I used this code in conjunction with a `disqusurl` variable in my `_config.yml` to reduce ambiguities and clutter during testing.
 {% highlight js %}
 {% raw %}
 var disqus_identifier = '{{ page.url }}';
 var disqus_title = '{{ page.title }}';
-var disqus_url = '{{ site.url }}{{ page.url }}';
+var disqus_url = '{{ site.disqusurl }}{{ page.url }}';
 {% endraw %}
 {% endhighlight %}
 
