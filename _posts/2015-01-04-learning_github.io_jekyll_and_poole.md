@@ -56,3 +56,6 @@ var disqus_url = '{{ site.disqusurl }}{{ page.url }}';
 
 ##The End
 We will see how well this works. I plan on writing more about my adventures with ElasticSearch, LogStash, Kibana 3 and 4, Xbian/Kodi, Synology NAS, RaspberryPi, InfluxDB, Grafana, and Debian. Damn you Kura.
+
+##Update 2015-03-16
+I did have to switch out all instances of `{{ site.url }}` with `{{ site.baseurl }}`, this was causing pain when trying to test locally.
